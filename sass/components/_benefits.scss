@@ -7,14 +7,6 @@
         display: flex;
     }
     
-    &__item {
-        width: 270px;
-
-        &:not(:last-child) {
-                margin-right: 30px;
-            }
-    }
-    
     &__block {
         display: flex;
         align-items: center;
@@ -47,3 +39,10 @@
         margin-bottom: 0px;
     }
 }
+.benefits__item {
+        width: 270px;
+    
+        &:not(:last-child) {
+                margin-right: 30px;
+            }
+        }

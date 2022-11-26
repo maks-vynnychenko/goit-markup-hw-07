@@ -293,12 +293,6 @@ section {
   display: -ms-flexbox;
   display: flex;
 }
-.benefits__item {
-  width: 270px;
-}
-.benefits__item:not(:last-child) {
-  margin-right: 30px;
-}
 .benefits__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,6 +322,13 @@ section {
   color: var(--secondary-text-color);
   margin-top: 0;
   margin-bottom: 0px;
+}
+
+.benefits__item {
+  width: 270px;
+}
+.benefits__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .tasks__list {
