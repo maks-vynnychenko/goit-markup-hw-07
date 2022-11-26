@@ -3,8 +3,14 @@
     align-items: center;
     margin-left: auto;
     gap: 50px;
+    
+    &__icon {
+            margin-right: 10px;
+        }
+    
+}
 
-    &__link {
+.contacts__link {
             display: flex;
             align-items: center;
             color: var(--secondary-text-color);
@@ -17,16 +23,10 @@
     
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-                &:hover,
-                &:focus {
-                        color: var(--accent-color);
-                        fill: var(--accent-color);
-                    }
-        }
     
-    &__icon {
-            margin-right: 10px;
+            &:hover,
+            &:focus {
+                color: var(--accent-color);
+                fill: var(--accent-color);
+            }
         }
-    
-}
